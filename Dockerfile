@@ -1,7 +1,7 @@
 FROM oven/bun AS build
 
-ARG PORT=2025
-ARG useOtel=false
+ENV PORT=2025
+ENV useOtel=false
 WORKDIR /app
 
 COPY package.json package.json
