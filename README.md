@@ -24,8 +24,8 @@ A lightweight and efficient API starter template built with [Elysia](https://ely
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/elysia
-cd elysia && rm -rf .git/
+git clone https://github.com/piarre/elysia-starter
+cd elysia-starter && rm -rf .git/
 
 # Install dependencies
 bun install
